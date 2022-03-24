@@ -41,6 +41,7 @@ class CategoryVC: UIViewController,UISearchBarDelegate {
             }
         } else if segue.identifier == ReuseIdentifiers.Segues.segueToSubCategories {
             if let destinationVC = segue.destination as? SubcategoryVC {
+                destinationVC.titleText = selectedCategory?.slug.capitalized
                 destinationVC.selectedSubCategory = selectedSubCategory
             }
         }

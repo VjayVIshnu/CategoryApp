@@ -349,7 +349,7 @@
         <scene sceneID="o1a-Za-5W3">
             <objects>
                 <viewController id="it9-ev-Vrh" customClass="AddCategoryVC" customModule="CategoryApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xg2-HX-lQW">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Xg2-HX-lQW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -370,11 +370,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="364" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="it9-ev-Vrh" id="QgY-BV-Bhd"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Category name in hindi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiV-nd-bN9">
                                         <rect key="frame" x="0.0" y="54" width="364" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="it9-ev-Vrh" id="7zF-Cg-oDx"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -466,10 +472,8 @@
                     <connections>
                         <outlet property="btnFeatured" destination="5x1-tO-oiK" id="HTA-2T-KIO"/>
                         <outlet property="btnNonFeatured" destination="iOz-8j-Lr2" id="YET-uZ-6nI"/>
-                        <outlet property="lblEnglish" destination="MiV-nd-bN9" id="uaq-CY-uh1"/>
-                        <outlet property="lblHindi" destination="MiV-nd-bN9" id="rE0-2I-yx8"/>
-                        <outlet property="txtEnglish" destination="pXI-oV-IG7" id="LCo-HC-7gf"/>
-                        <outlet property="txtHindi" destination="MiV-nd-bN9" id="dxO-Uw-DsJ"/>
+                        <outlet property="txtEnglish" destination="pXI-oV-IG7" id="q0P-ft-BJC"/>
+                        <outlet property="txtHindi" destination="MiV-nd-bN9" id="X3E-d4-prq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNx-OW-ugl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

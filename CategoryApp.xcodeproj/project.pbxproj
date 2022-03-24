@@ -13,7 +13,6 @@
 		2930A46127EB7D5D005C5661 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930A46027EB7D5D005C5661 /* RoundedButton.swift */; };
 		2930A46327EB8209005C5661 /* AddCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930A46227EB8209005C5661 /* AddCategoryVC.swift */; };
 		2930A46527EB9D88005C5661 /* SubcategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930A46427EB9D88005C5661 /* SubcategoryCell.swift */; };
-		294CF20B27EC405000062EBC /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CF20A27EC405000062EBC /* HeaderViewCell.swift */; };
 		294CF20D27EC451900062EBC /* SubcategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CF20C27EC451900062EBC /* SubcategoryVC.swift */; };
 		2966FDE427EB255B00AEA5C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966FDE327EB255B00AEA5C8 /* AppDelegate.swift */; };
 		2966FDE627EB255B00AEA5C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966FDE527EB255B00AEA5C8 /* SceneDelegate.swift */; };
@@ -23,9 +22,7 @@
 		2966FDF027EB255E00AEA5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2966FDEE27EB255E00AEA5C8 /* LaunchScreen.storyboard */; };
 		2966FDF827EB25F000AEA5C8 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966FDF727EB25F000AEA5C8 /* CategoryVC.swift */; };
 		2966FDFA27EB2C7C00AEA5C8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966FDF927EB2C7C00AEA5C8 /* Category.swift */; };
-		297440A627EB3161002F06E5 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297440A527EB3161002F06E5 /* Driver.swift */; };
 		297440A827EB3409002F06E5 /* TestCategoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 297440A727EB3409002F06E5 /* TestCategoryData.json */; };
-		297440B427EB49DC002F06E5 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297440B327EB49DC002F06E5 /* ExpandableCell.swift */; };
 		30992C61BE8305BA2435305C /* Pods_CategoryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5649187D7EBE90EA57E8861 /* Pods_CategoryApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +33,6 @@
 		2930A46027EB7D5D005C5661 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		2930A46227EB8209005C5661 /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
 		2930A46427EB9D88005C5661 /* SubcategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryCell.swift; sourceTree = "<group>"; };
-		294CF20A27EC405000062EBC /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		294CF20C27EC451900062EBC /* SubcategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryVC.swift; sourceTree = "<group>"; };
 		2966FDE027EB255B00AEA5C8 /* CategoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2966FDE327EB255B00AEA5C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,9 +44,7 @@
 		2966FDF127EB255E00AEA5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2966FDF727EB25F000AEA5C8 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
 		2966FDF927EB2C7C00AEA5C8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		297440A527EB3161002F06E5 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		297440A727EB3409002F06E5 /* TestCategoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestCategoryData.json; sourceTree = "<group>"; };
-		297440B327EB49DC002F06E5 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 		2A2109BD5AF4002EA6A3A6BB /* Pods-CategoryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryApp.release.xcconfig"; path = "Target Support Files/Pods-CategoryApp/Pods-CategoryApp.release.xcconfig"; sourceTree = "<group>"; };
 		7DC2025403CCC95E99CC5D3F /* Pods-CategoryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryApp.debug.xcconfig"; path = "Target Support Files/Pods-CategoryApp/Pods-CategoryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A5649187D7EBE90EA57E8861 /* Pods_CategoryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CategoryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +87,6 @@
 				2966FDE527EB255B00AEA5C8 /* SceneDelegate.swift */,
 				2966FDE727EB255B00AEA5C8 /* ViewController.swift */,
 				2966FDE927EB255B00AEA5C8 /* Main.storyboard */,
-				294CF20A27EC405000062EBC /* HeaderViewCell.swift */,
-				297440B327EB49DC002F06E5 /* ExpandableCell.swift */,
 				2930A45A27EB71D3005C5661 /* ExpandableTableViewCell.swift */,
 				2930A46427EB9D88005C5661 /* SubcategoryCell.swift */,
 				2966FDF727EB25F000AEA5C8 /* CategoryVC.swift */,
@@ -103,7 +95,6 @@
 				2930A45C27EB78ED005C5661 /* CategoryDetailVC.swift */,
 				2930A46027EB7D5D005C5661 /* RoundedButton.swift */,
 				2930A45E27EB7A66005C5661 /* AppConstants.swift */,
-				297440A527EB3161002F06E5 /* Driver.swift */,
 				2966FDF927EB2C7C00AEA5C8 /* Category.swift */,
 				2966FDEC27EB255E00AEA5C8 /* Assets.xcassets */,
 				2966FDEE27EB255E00AEA5C8 /* LaunchScreen.storyboard */,
@@ -247,17 +238,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2966FDE827EB255B00AEA5C8 /* ViewController.swift in Sources */,
-				294CF20B27EC405000062EBC /* HeaderViewCell.swift in Sources */,
 				2966FDFA27EB2C7C00AEA5C8 /* Category.swift in Sources */,
 				2966FDE427EB255B00AEA5C8 /* AppDelegate.swift in Sources */,
-				297440A627EB3161002F06E5 /* Driver.swift in Sources */,
 				2966FDF827EB25F000AEA5C8 /* CategoryVC.swift in Sources */,
 				2930A45D27EB78ED005C5661 /* CategoryDetailVC.swift in Sources */,
 				2930A46327EB8209005C5661 /* AddCategoryVC.swift in Sources */,
 				2930A46127EB7D5D005C5661 /* RoundedButton.swift in Sources */,
 				2966FDE627EB255B00AEA5C8 /* SceneDelegate.swift in Sources */,
 				2930A46527EB9D88005C5661 /* SubcategoryCell.swift in Sources */,
-				297440B427EB49DC002F06E5 /* ExpandableCell.swift in Sources */,
 				2930A45B27EB71D3005C5661 /* ExpandableTableViewCell.swift in Sources */,
 				2930A45F27EB7A66005C5661 /* AppConstants.swift in Sources */,
 				294CF20D27EC451900062EBC /* SubcategoryVC.swift in Sources */,

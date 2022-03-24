@@ -13,9 +13,10 @@ class SubcategoryVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
 
     @IBOutlet weak var tblSubCategoryVC: UITableView!
     var selectedSubCategory:[Datum] = []
+    var titleText:String?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = titleText
         // Do any additional setup after loading the view.
     }
     
